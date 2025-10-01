@@ -1,0 +1,12 @@
+{
+  "name": "ajs-test-node",
+  "version": "1.0.0",
+  "description": "Test project for using @MILANA2003Z/ajs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@MILANA2003Z/ajs": "1.0.1"
+  }
+}
