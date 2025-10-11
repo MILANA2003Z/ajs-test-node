@@ -1,0 +1,26 @@
+{
+  "name": "@MILANA2003Z/ajs",
+  "version": "1.0.2",
+  "description": "Домашнее задание Netology: Platforms (ajs)",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MILANA2003Z/ajs.git"
+  },
+  "author": "MILANA2003Z",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
